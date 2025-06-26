@@ -13,7 +13,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("https://github.com/r4mon-vinicius/ciencia_de_dados/blob/master/dataset/dataset.csv")
+        df = pd.read_csv("https://raw.githubusercontent.com/r4mon-vinicius/ciencia_de_dados/master/dataset/dataset.csv")
 
         # Limpeza e pré-processamento dos dados
         # Removendo colunas não utilizadas
